@@ -1,10 +1,5 @@
 package com.khanhhuy.movie_db.model;
 
-import android.databinding.ObservableArrayList;
-import android.util.Log;
-import android.view.View;
-
-import java.sql.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
