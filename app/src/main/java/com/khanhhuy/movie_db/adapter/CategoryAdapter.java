@@ -2,7 +2,6 @@ package com.khanhhuy.movie_db.adapter;
 
 import android.databinding.DataBindingUtil;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,7 +9,7 @@ import android.view.ViewGroup;
 import com.khanhhuy.movie_db.BR;
 import com.khanhhuy.movie_db.R;
 import com.khanhhuy.movie_db.databinding.ItemListFragmentHomeBinding;
-import com.khanhhuy.movie_db.model.CategoryList;
+
 import java.util.List;
 
 /**
@@ -18,7 +17,7 @@ import java.util.List;
  */
 
 public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.CategoryViewHolder> {
-    private List<String> mCategoryNames;
+    private List<String> mCategoryNames;;
 
     public CategoryAdapter(List<String> categoryNames){
         mCategoryNames = categoryNames;
